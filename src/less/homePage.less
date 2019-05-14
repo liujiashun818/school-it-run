@@ -1,0 +1,436 @@
+.homePageDiv {
+  //width: 950px;
+  //position: absolute;
+  //left: 50%;
+  //margin-left: -475px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.homePageDiv .navbar-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  min-height: 30px;
+  z-index: 1;
+}
+.homePageDiv .navbar-bottom .container {
+  width: 100%;
+  line-height: 30px;
+  font-family: 宋体;
+  color: #183c22;
+  text-align:center;
+}
+
+.homePageDiv .userForm {
+  padding: 0;
+}
+
+.loadingDiv {
+    background-color: black;
+    opacity: .75;
+}
+.loadingDiv.in {
+    display: block;
+}
+
+.navbar .container-fluid {
+  height: 108px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 0;
+  z-index: auto;
+}
+
+.navbar-form .spanFontStyle {
+  font-family: 宋体;
+  font-size: 12px;
+  height: 31px;
+  line-height: 31px;
+  padding-top: 0;
+  color: #515151;
+}
+
+.navbar-form .dropdownStyle {
+  width: 208px;
+  height: 31px;
+}
+.navbar-form .dropdownStyle .rw-input {
+  height: 31px;
+  line-height: 31px;
+  padding: 0;
+  margin-top: -7px;
+  font-family: 宋体;
+  font-size: 12px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  height: 26px;
+  line-height: 26px;
+  margin: 8px 10px;
+  padding: 0;
+  color: #515151;
+}
+
+.navbar-right .li_btn {
+  margin-left: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.btnShowHidePortal {
+  width: 102px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 12px;
+  background: #fff;
+  border-color: #008b1a;
+  color: #008b1a;
+}
+.btnShowHidePortal:focus {
+  background: #fff;
+  border-color: #008b1a;
+  color: #008b1a;
+}
+.btnShowHidePortal:hover {
+  background-color: #00dd24;
+  border-color: #00dd24;
+  color: #fff;
+}
+.btnShowHidePortal.active.focus, .btnShowHidePortal.active:focus, .btnShowHidePortal.active:hover,.btnShowHidePortal:active.focus, .btnShowHidePortal:active:focus, .btnShowHidePortal:active:hover {
+  background-color: #00dd24;
+  border-color: #00dd24;
+  color: #fff;
+}
+
+.flipx {
+  -moz-transform:scaleX(-1);
+  -webkit-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+  /*IE*/
+  filter:FlipH;
+}
+
+
+.navbar-searchform {
+  padding: 0;
+}
+.navbar-searchform .searchInput {
+  width: 270px;
+  height: 26px;
+}
+.navbar-searchform .searchBtn {
+  height: 26px;
+  line-height: 26px;
+  padding: 0 12px;
+  font-weight: bold;
+  background: #008b1a;
+  border-color: #008b1a;
+  color: #fff;
+}
+.navbar-searchform .searchBtn:focus {
+  background-color: #00dd24;
+  border-color: #00dd24;
+  color: #fff;
+}
+.navbar-searchform .searchBtn:hover {
+  background-color: #00dd24;
+  border-color: #00dd24;
+  color: #fff;
+}
+.navbar-searchform .searchBtn.active.focus, .searchBtn.active:focus, .searchBtn.active:hover,.searchBtn:active.focus, .searchBtn:active:focus, .searchBtn:active:hover {
+  background-color: #00dd24;
+  border-color: #00dd24;
+  color: #fff;
+}
+
+.searchTip {
+  //float: left;
+  //margin-top: -12px;
+  margin-bottom: 7px;
+  height: 26px;
+  line-height: 26px;
+  //margin-right: 237px;
+  margin-left: 10px;
+  color: #666666;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background: linear-gradient(#c5cbc6, #9da9a9);
+}
+.navbar .navbar-collapse {
+    padding-left: 0;
+}
+
+.navbar-tab-div {
+  position: absolute;
+  // margin-top: -59px;
+  // margin-left: 10px;
+  z-index: 1;
+}
+.navbar-tab-div .navbar-form {
+  padding: 0;
+}
+.navbar-tab-div .tab-base {
+  margin-bottom: 0;
+}
+.navbar-tab-div .tab-base .nav-tabs>li:not(.active)>a {
+  background: #fff;
+  font-weight: bold;
+  color: #008b1a;
+  opacity: 1;
+}
+.navbar-tab-div .tab-base .nav-tabs>li.active>a,.navbar-tab-div .nav-tabs>li.active>a:focus {
+  background: #00b724;
+  font-weight: bold;
+  color: #fff;
+  border-top: 0;
+  height: 32px;
+  line-height: 32px;
+}
+// .navbar-tab-div .tab-base .nav-tabs>li:not(.active)>a:hover {
+//   opacity: 1;
+//   background-color: #00b724;
+//   color: #fff;
+// }
+.navbar-tab-div .nav-tabs-a {
+  width: 102px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+  margin-right: 1px;
+  text-align: center;
+}
+.navbar-tab-div .tab-base .nav-tabs-li-gray.active>a {
+  background: #f0f0f0 !important;
+  color: #008b1a !important;
+}
+.navbar-tab-div .tab-base .nav-tabs-li-gray.active>a:hover {
+  background-color: #00b724 !important;
+  color: #fff !important;
+}
+
+.navbar-tab-div .tab-base .tab-content {
+  // border-top: 3px solid #00b724;
+  // border-bottom: 3px solid #00b724;
+  background-color: transparent;
+  margin-top: 3px;
+  padding: 0;
+}
+.navbar-tab-div .tab-base .tab-content .nav-tabs-a {
+    width: auto;
+    min-width: 98px;
+    height: 24px;
+    line-height: 22px;
+    cursor: pointer;
+}
+.navbar-tab-div .tab-base .tab-content .nav-tabs>li:not(.active)>a {
+  background: transparent;
+  margin: 0 2px;
+  font-weight: normal;
+  border-radius: 3px;
+}
+.navbar-tab-div .tab-base .tab-content .nav-tabs>li.active>a,.navbar-tab-div .tab-content .nav-tabs>li.active>a:focus {
+  background: #00b724;
+  margin: 0 2px;
+  font-weight: normal;
+  color: #fff;
+  border-radius: 3px;
+  border-top: 0;
+  height: 24px;
+  line-height: 22px;
+}
+
+.navbarTab {
+  height: 162px;
+}
+.navbarTab .tabAssetManage-List1, .navbarTab .tabAssetManage-List2 {
+  float: left;
+  width: 180px;
+}
+.navbarTab .tabEquipmentManage-List1, .navbarTab .tabEquipmentManage-List2 {
+  float: left;
+  width: 130px;
+}
+.navbarTab .tabAssetManage-List1 .list-group, .navbarTab .tabAssetManage-List2 .list-group, .navbarTab .tabEquipmentManage-List1 .list-group, .navbarTab .tabEquipmentManage-List2 .list-group {
+  margin-bottom: 0;
+}
+.navbarTab .tabAssetManage-List1 .list-group .fa-caret-right, .navbarTab .tabEquipmentManage-List1 .list-group .fa-caret-right {
+  color: #00b724;
+  margin-left: 8px;
+}
+.navbarTab .tabAssetManage-List1 .list-group a.list-group-item, .navbarTab .tabEquipmentManage-List1 .list-group a.list-group-item {
+  height: 33px;
+  line-height: 33px;
+  padding: 0 7px;
+  font-weight: bold;
+  color: black;
+  cursor: default;
+}
+.navbarTab .tabAssetManage-List1 .list-group a.list-group-item.active, .navbarTab .tabAssetManage-List1 .list-group a.list-group-item.active:hover,
+.navbarTab .tabAssetManage-List1 .list-group a.list-group-item:focus, .navbarTab .tabAssetManage-List1 .list-group a.list-group-item:hover,
+.navbarTab .tabEquipmentManage-List1 .list-group a.list-group-item.active, .navbarTab .tabEquipmentManage-List1 .list-group a.list-group-item.active:hover,
+.navbarTab .tabEquipmentManage-List1 .list-group a.list-group-item:focus, .navbarTab .tabEquipmentManage-List1 .list-group a.list-group-item:hover {
+  background: #ADFDC1;
+}
+
+.navbarTab .tabAssetManage-List2, .navbarTab .tabEquipmentManage-List2 {
+  height: 162px;
+  border-right: 1px #e9e9e9 solid;
+}
+.navbarTab .tabAssetManage-List2 .list-title, .navbarTab .tabEquipmentManage-List2 .list-title {
+  height: 33px;
+  line-height: 33px;
+  padding: 0 7px;
+  font-weight: bold;
+  color: black;
+}
+.navbarTab .tabAssetManage-List2 .list-title .fa-caret-right, .navbarTab .tabEquipmentManage-List2 .list-title .fa-caret-right {
+  color: #00b724;
+  margin-left: 8px;
+}
+.navbarTab .tabAssetManage-List2 .assetManage-list, .navbarTab .tabEquipmentManage-List2 .assetManage-list {
+  margin-top: -4px;
+}
+.navbarTab .tabAssetManage-List2 .list-group a.list-group-item, .navbarTab .tabEquipmentManage-List2 .list-group a.list-group-item {
+  height: 19px;
+  line-height: 19px;
+  padding: 0 7px;
+  color: black;
+  border: 0;
+  cursor: default;
+}
+.navbarTab .tabAssetManage-List2 .list-group a.list-group-item.active, .navbarTab .tabAssetManage-List2 .list-group a.list-group-item:focus, .navbarTab .tabAssetManage-List2 .list-group a.list-group-item:hover
+.navbarTab .tabEquipmentManage-List2 .list-group a.list-group-item.active, .navbarTab .tabEquipmentManage-List2 .list-group a.list-group-item:focus, .navbarTab .tabEquipmentManage-List2 .list-group a.list-group-item:hover
+{
+  background: #f0f0f0;
+}
+
+.iq-list{
+  min-height: 150px;
+  margin-left: 5px;
+}
+
+#navbar-tab-content{
+  box-shadow:none;
+}
+
+//.iq-list .list-group {
+//  padding-bottom: 20px;
+//}
+
+.iq-list .list-group a.list-group-item{
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  color: #00b724;
+  margin-bottom: 1px;
+  border: 0;
+  border-bottom: 1px solid #d9d9d9;
+  cursor: default;
+  white-space: nowrap;
+  overflow:hidden
+}
+
+.iq-list .list-group a.list-group-item.active,.iq-list .list-group a.list-group-item.active:hover,.iq-list .list-group a.list-group-item:focus {
+  height: 28px;
+  line-height: 28px;
+  background: #00b724;
+  color: #fff;
+  margin-top: -1px;
+  //border-left: 6px solid #2385d1;
+}
+.iq-list .list-group a.list-group-item:hover {
+  height: 28px;
+  line-height: 28px;
+  background: #ADFDC1;
+  //color: #fff;
+  margin-top: -1px;
+  //border-left: 6px solid #2385d1;
+}
+
+.iq-list .list-group-item.active, .iq-list .list-group-item.active:focus, .iq-list .list-group-item.active:hover {
+  z-index: auto;
+}
+
+.selectRoleModalDialog {
+    width: 300px;
+    font-family: 宋体;
+}
+.selectRoleModalDialog .modal-title {
+  font-weight: bold;
+  color: black;
+}
+.selectRoleModalDialog .modalFootBtn {
+  width: auto;
+  height: 21px;
+  line-height: 21px;
+  padding: 0 10px;
+  margin-right: 6px;
+  font-weight: bold;
+  background: #008b1a;
+  border-color: #008b1a;
+  color: #fff;
+  font-size: 12px;
+}
+.selectRoleModalDialog .modalFootBtn:hover {
+  background-color: #00dd24;
+  border-color: #00dd24;
+  color: #fff;
+}
+.selectRoleModalDialog .roleList{
+  height: 180px;
+  overflow-y: auto;
+}
+.selectRoleModalDialog .roleList .list-group a.list-group-item{
+  height: 24px;
+  line-height: 24px;
+  padding: 0 10px;
+  color: #00b724;
+  margin-bottom: 1px;
+  border: 0;
+  // border-bottom: 1px solid #d9d9d9;
+  cursor: default;
+}
+.selectRoleModalDialog .roleList .list-group a.list-group-item.active, .selectRoleModalDialog .roleList .list-group a.list-group-item.active:hover, .selectRoleModalDialog .roleList .list-group a.list-group-item:focus {
+  height: 24px;
+  line-height: 24px;
+  background: #00b724;
+  color: #fff;
+  // margin-top: -1px;
+  //border-left: 6px solid #2385d1;
+}
+.selectRoleModalDialog .roleList .list-group a.list-group-item:hover {
+  height: 24px;
+  line-height: 24px;
+  background: #f0f0f0;
+  //color: #fff;
+  // margin-top: -1px;
+  //border-left: 6px solid #2385d1;
+}
+// .selectRoleModalDialog .roleList .list-group-item.active, .roleList .list-group-item.active:focus, .roleList .list-group-item.active:hover {
+//   z-index: auto;
+// }
+
+/*-----------------------reset by Yuchen--------------------------*/
+.minHeight{
+	height: 65px;
+	width: auto;
+}
+
+.topoMapDiv {
+  //padding-left: 6px!important;
+  margin-top: 6px;
+}
+
+#publicMessageModal{
+  z-index: 1000000;
+}
+#errMessageModel{
+  z-index: 1000000;
+}

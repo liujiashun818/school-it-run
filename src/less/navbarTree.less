@@ -1,0 +1,149 @@
+#navbarTree{
+  margin: 0!important;
+}
+#navbarTree li{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #008b1a;
+  width: 102px;
+  height: 30px;
+  padding: 0!important;
+  border-right: 1px solid #00b724;
+}
+#navbarTree li:last-of-type{
+  border-right: none;
+}
+#navbarTree li a{
+  color: #008b1a;
+  width: 100%;
+  height: 100%;
+  padding: 7px 0!important;
+  text-align: center;
+}
+#navbarTree li span{
+  margin-right: 7px;
+  font-family: "宋体";
+}
+#navbarTree li span.switch{
+  display: none;
+}
+#navbarTree li a.curSelectedNode{
+  color: #fff;
+}
+#navbarTree li.curSelectedNodeLi.fadeInMenuCommon{
+  background-color: #00b724;
+  color: #fff;
+}
+#navbarTree li a.fadeInMenuCommon{
+  background-color: #00b724;
+  color: #fff;
+}
+.fadeInMenuCommon{
+  background-color: #00b724!important;
+  color: #fff;
+}
+
+/*rgba(255, 255, 255, 0)*/
+.lftMenuDiv{
+  z-index: 2;
+}
+.lftMenuDiv .ztree{
+  margin: 0!important;
+  background-color: rgba(255, 255, 255, 0);
+  display: inline-block;
+}
+.lftMenuDiv .ztree li{
+  display: inline-block;
+  font-size: 12px;
+  width: 102px;
+  border-right: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.lftMenuDiv .ztree li span.switch{
+  display: none;
+}
+.lftMenuDiv .ztree li span{
+  font-family:'宋体';
+}
+.lftMenuDiv .ztree li a{
+  color: #008b1a;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+.lftMenuDiv .ztree li a.curSelectedNode{
+  color: #fff;
+}
+.lftMenuDiv .ztree li:last-of-type{
+  border-right: none;
+}
+.lftMenuDiv .ztree li.curSelectedNodeLi.fadeInMenuCommon{
+  background-color: #00b724;
+  color: #fff;
+}
+.lftMenuDiv .ztree li a.fadeInMenuCommon{
+  background-color: #00b724;
+  color: #fff;
+}
+@keyframes pulse5 {
+	100% {
+		background-color: #00b724;
+		color: #fff;
+	}
+	0% {
+		background-color: #ADFDC1;
+		color: #008b1a;
+	}
+}
+@keyframes pulse6 {
+	100% {
+		background-color: rgba(255, 255, 255, 0);
+		color: #008b1a;
+	}
+	0% {
+		background-color: #00b724;
+		color: #fff;
+	}
+}
+@keyframes pulse7 {
+	100% {
+		background-color: rgba(255, 255, 255, 0);
+	}
+	0% {
+		background-color: #ADFDC1;
+	}
+}
+@keyframes pulse8 {
+	100% {
+		background-color: #ADFDC1;
+	}
+	0% {
+		background-color: rgba(255, 255, 255, 0);
+	}
+}
+.lftMenuDiv .ztree li a.curSelectedNode {animation: pulse5 1s infinite;animation-iteration-count:1;background-color: #00b724;}
+.lftMenuDiv .ztree li a.fadeInTreeNodeHover {animation: pulse8 1s infinite;animation-iteration-count:1;background-color: #ADFDC1;}
+.lftMenuDiv .ztree li a.fadeOutTreeNode {animation: pulse6 1s infinite;animation-iteration-count:1;background-color: rgba(255, 255, 255, 0);}
+.lftMenuDiv .ztree li a.fadeOutTreeNodeHover {animation: pulse7 1s infinite;animation-iteration-count:1;background-color: rgba(255, 255, 255, 0);}
+.lftMenuDiv .ztree li a.fadeInMenu{}
+.lftMenuDiv .ztree .fadeInMenu {
+  animation: pulse5 1s infinite;
+  animation-iteration-count:1;
+  background-color: #00b724!important;
+}
+.lftMenuDiv .ztree .fadeInMenuHover {
+  animation: pulse8 1s infinite;
+  animation-iteration-count:1;
+  background-color: #ADFDC1!important;
+}
+.lftMenuDiv .ztree .fadeOutMenu {
+  animation: pulse6 1s infinite;
+  animation-iteration-count:1;
+  background-color: rgba(255, 255, 255, 0)!important;
+}
+.lftMenuDiv .ztree .fadeOutMenuHover {
+  animation: pulse7 1s infinite;
+  animation-iteration-count:1;
+  background-color: rgba(255, 255, 255, 0)!important;
+}

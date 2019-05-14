@@ -1,0 +1,126 @@
+/*------------------assetManage dashBoard-----by Xie Ying--------------------------*/
+.dashBoardViewDiv {
+    padding: 20px 8px 0 8px;
+    background: #fff;
+    overflow-y: auto;
+}
+
+.dashBoardViewDiv .titleDiv {
+    //float: left;
+    //width: 920px;
+    margin-bottom: 15px;
+    border-bottom: 3px #f1f1f1 solid;
+}
+.dashBoardViewDiv .titleDiv .titleRight{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    float: right;
+}
+.dashBoardViewDiv .titleDiv .titleRight>a {
+    color: #666666;
+}
+.dashBoardViewDiv .titleDiv .titleRight>a:hover, .dashBoardViewDiv .titleDiv .titleRight>a:active {
+    color: #444444;
+}
+.dashBoardViewDiv .titleDiv .titleRight2{
+    display: block;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    float: right;
+}
+.dashBoardViewDiv .titleDiv .titleRight2>a {
+    color: black;
+}
+.dashBoardViewDiv .titleDiv .titleRight2>a:hover, .dashBoardViewDiv .titleDiv .titleRight2>a:active {
+    color: #444444;
+}
+
+.dashBoardViewDiv .assetStatusPanel {
+    position: relative;
+    padding: 0 5px 0 10px;
+    //float: left;
+    //width: 465px;
+}
+.dashBoardViewDiv .rankingPanel {
+    position: relative;
+    padding: 0 5px;
+    //float: left;
+    //width: 465px;
+}
+.dashBoardViewDiv .statisticsPanel, .dashBoardViewDiv .tablePanel {
+    position: relative;
+    padding: 0 5px 0 10px;
+    //float: left;
+    //width: 930px;
+}
+
+.dashBoardViewDiv .panel {
+    margin-bottom: 15px;
+    border: 1px #dcdcdc solid;
+    box-shadow: none;
+}
+.dashBoardViewDiv .panel .panel-heading {
+    height: 25px;
+    background: #efefef;
+    border-bottom: 1px #dcdcdc solid;
+}
+.dashBoardViewDiv .panel .panel-heading .panel-title {
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+}
+.dashBoardViewDiv .rankingPanel .panel .panel-heading .panel-title>a {
+    //width: 438px;
+}
+.dashBoardViewDiv .statisticsPanel .panel .panel-heading .panel-title>a {
+    //width: 888px;
+}
+.dashBoardViewDiv .panel .panel-heading .panel-title>a .panel-title-total {
+    float: right;
+    font-weight: normal;
+}
+
+.dashBoardViewDiv .assetStatusPanel .panel .collapse.in, .dashBoardViewDiv .rankingPanel .panel .collapse.in, .dashBoardViewDiv .tablePanel .panel .collapse.in {
+    height: 135px;
+    overflow: auto;
+}
+.dashBoardViewDiv .statisticsPanel .panel .collapse.in {
+    height: 315px;
+    overflow: auto;
+}
+.dashBoardViewDiv .panel .collapse.in .panel-body, .dashBoardViewDiv .panel .collapsing .panel-body {
+    padding: 0;
+    font-family: 宋体;
+    color: black;
+}
+
+.dashBoardViewDiv .panel .collapse.in .panel-body .fixed-table-header, .dashBoardViewDiv .panel .collapsing .panel-body .fixed-table-header {
+    display: none!important;
+    //border-top: 1px solid #ddd;
+    //margin-top: 5px;
+}
+.dashBoardViewDiv .panel .collapse.in .panel-body .fixed-table-body, .dashBoardViewDiv .panel .collapsing .panel-body .fixed-table-body {
+    height: 134px;
+}
+.dashBoardViewDiv .panel .collapse.in .panel-body .fixed-table-body .table, .dashBoardViewDiv .panel .collapsing .panel-body .fixed-table-body .table {
+    margin-top: 0!important;
+    border-bottom: 0;
+}
+.dashBoardViewDiv .panel .collapse.in .panel-body .fixed-table-container tbody td .th-inner, .dashBoardViewDiv .panel .collapse.in .panel-body .fixed-table-container thead th .th-inner,
+.dashBoardViewDiv .panel .collapsing .panel-body .fixed-table-container tbody td .th-inner, .dashBoardViewDiv .panel .collapsing .panel-body .fixed-table-container thead th .th-inner {
+    padding: 0;
+}
+.dashBoardViewDiv .panel .collapse.in .panel-body .bootstrap-table .table.table-no-bordered>tbody>tr>td, .dashBoardViewDiv .panel .collapse.in .panel-body .bootstrap-table .table.table-no-bordered>thead>tr>th,
+.dashBoardViewDiv .panel .collapsing .panel-body .bootstrap-table .table.table-no-bordered>tbody>tr>td, .dashBoardViewDiv .panel .collapsing .panel-body .bootstrap-table .table.table-no-bordered>thead>tr>th {
+    padding: 0 0 0 10px!important;
+    height: 21px;
+    line-height: 21px;
+}

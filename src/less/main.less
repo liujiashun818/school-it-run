@@ -1,0 +1,333 @@
+// @import "itoss.less";
+// @import "email.less";
+@import "css/bootstrap.min.css";
+@import "css/demo.css";
+@import "css/zTreeStyle/zTreeStyle.css";
+@import "font-awesome/css/font-awesome.min.css";
+@import "css/react-widgets.css";
+@import "css/login.css";
+@import "css/nifty.min.css";
+@import "css/leaflet.css";
+@import "css/react-event-calendar.css";
+@import "monitorPage";
+@import "homePage";
+@import "dashboardPageView";
+@import "hardwareManage";
+@import "equipmentManage";
+@import "operationManage";
+@import "yunweiManage";
+@import "reportManage.less";//
+@import "systemManage";
+@import "indexPages";
+@import "dataDictPage.less";
+@import "navbarTree.less";
+.documentBody {
+  background-color: #f3f3f3;
+  overflow-y:hidden;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.row {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.marginTop_5 {
+  margin-top: 5px;
+}
+
+.marginTop_10 {
+  margin-top: 10px;
+}
+
+.marginTop_20 {
+  margin-top: 20px;
+}
+
+.marginBottom_10 {
+  margin-bottom: 10px;
+}
+
+.marginBottom_20 {
+  margin-bottom: 20px;
+}
+
+.marginBottom_30 {
+  margin-bottom: 30px;
+}
+
+.marginLeft_5 {
+  margin-left: 5px;
+}
+
+.marginRight_5 {
+  margin-right: 5px;
+}
+
+.marginRight_8 {
+  margin-right: 8px;
+}
+
+.marginRight_10 {
+  margin-right: 10px;
+}
+
+.marginRight_20 {
+  margin-right: 20px;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+.titleMargin{
+  color: #fff;
+  padding-left: 48px;
+}
+.titleStyle{
+  //position:fixed;
+  z-index: 1;
+}
+.mainTop{
+  //position:fixed;
+  padding-top: 60px !important;
+}
+.bottonStyle{
+  color: #fff;
+  background-color: #444;
+}
+.bottonFont{
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.slideMenuTitle{
+  color: #fff;
+  font-size: 14px;
+  font-family: '微软雅黑';
+  padding-left: 10px;
+}
+.slideMenuTitle1{
+  color: #999;
+  font-size: 12px;
+  font-family: '微软雅黑';
+  padding-left: 10px;
+}
+.slideMenuDiv1{
+  padding-top: 50px;
+  padding-left: 30px;
+
+
+}
+.slideMenuDiv2{
+  font-size: 12px;
+}
+.slideMenuBotton{
+  color:#999;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#scaleDown a, #scaleRotate a, #pushRotate a, #fallDown a {
+  padding: 1em;
+  text-transform: none;
+  transition: background 0.3s, box-shadow 0.3s;
+  box-shadow: none;
+}
+/*左侧菜单*/
+.sidebar-menu{
+  margin-top: 20px;
+}
+/*一级菜单*/
+.menu-first{
+  background-color: #233444 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  display: block;
+}
+/*一级菜单鼠标划过状态*/
+.menu-first:hover{
+  text-decoration: none !important;
+}
+/*二级菜单*/
+.menu-second li a{
+  background-color: #283847 !important;
+  height:35px !important;
+  line-height:35px !important;
+  font-size: 12px !important;
+  border-left: 3px solid #0099ff !important;
+  color:#fff;
+  font-weight: bold !important;
+}
+/*二级菜单鼠标划过样式*/
+.menu-second li a:hover {
+  text-decoration: none !important;
+  background-color: #2f4050 !important;
+}
+/*二级菜单选中状态*/
+.menu-second-selected {
+  background-color: #66c3ec !important;
+  height:31px !important;
+  line-height:31px !important;
+  text-align:center !important;
+}
+/*覆盖bootstrap的样式*/
+.nav-list,.nav-list li a{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.bm-menu {
+  background: #283847 !important;
+}
+.sidebar-menu {
+  border-right: 0px solid #c4c8cb !important;
+}
+.bm-item-list a {
+  color: #fff;
+  padding: 0.8em;
+  font-weight: bold;
+}
+.slideMenuLogo{
+  height: 50px;
+  padding-bottom: 10px;
+}
+#scaleDown a span, #scaleRotate a span, #pushRotate a span, #fallDown a span {
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+.scrollMenus{
+  height:95%;overflow:auto
+}
+
+.zc-license {
+  display: none;
+}
+
+.zc-menu .zc-menu-item:last-child {
+  display: none;
+  background: #fff;
+}
+div[id$='-progress'] {
+  background: none!important;
+}
+
+#content-container {
+  background-color: #f3f3f3;
+}
+#container.mainnav-lg #footer, #container.mainnav-lg #content-container {
+  padding-left: 0;
+}
+
+.button-group .btn{
+	color: #ffffff !important;
+	margin-left: 6px;
+	margin-right: 6px;
+	width: 15%;
+  font-family: 微软雅黑;
+	font-weight: bold;
+}
+.btn-default2{
+  background-color: #bbbbbb;
+}
+
+@media (min-width: 992px){
+	.col-md-1p33{
+		width: 11.11111111%;
+	}
+	.col-md-10p67{
+		width: 88.88888888%;
+	}
+	.col-md-1p33,.col-md-10p67{
+		float: left;
+	}
+	.col-wholeLine{
+		padding-right: 44px !important;
+	}
+}
+.yftStaticStyleDisplay{
+  display: none;
+}
+.yftStaticStyleDisabled{
+  // background-color: #ddd;
+}
+
+.rw-input {
+    color: #000000;
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav-tabs {
+    border-bottom: 1px solid #00B724;
+}
+.nav-tabs>li>a{
+  padding: 5px 15px;
+  font-weight: bold;
+}
+/* old
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #ffffff;
+    background-color: #00B724;
+}
+*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    white-space: nowrap;
+    border-left: solid 1px #00B724;
+    border-right: solid 1px #00B724;
+    border-top: solid 3px #00B724;
+    height: 30px;
+    color: #00B724;
+    text-indent: 1px;
+}
+
+.bootstrap-table .table > tbody > tr > td {
+    vertical-align: middle;
+}
+.fixed-table-pagination .pagination a:hover, .fixed-table-pagination .pagination a:focus {
+    border: 1px #00B724 solid;
+    color: #00B724;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #00B724;
+    border-color: #00B724;
+    color: #fff;
+}
+
+.btnNoShadow:not(.disabled):not(:disabled):active, .btnNoShadow:not(.disabled):not(:disabled).active {
+    box-shadow: none;
+}
+input:disabled {
+    background-color: #f0f0f0;
+}
+
+.btn-success {
+    border: none;
+    background-color: #00B724;
+    color: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.btn-success, .btn-success:focus, .btn-success:hover, .btn-success:active, .btn.btn-success.active{
+    background-color: #00B724;
+    border-color: #00B724;
+    color: #fff;
+}
+
+.rw-widget .rw-input {
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+}
+
+.leaflet-container .leaflet-marker-pane img {
+  z-index: 21!important;
+}
